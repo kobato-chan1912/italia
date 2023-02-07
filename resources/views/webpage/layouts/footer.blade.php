@@ -54,14 +54,18 @@
             </ul>
         </div>
     </div>
+    <div class="container-image">
+        <a href="{{route("dashboard")}}"><img class="img-fluid" src="/webpage/images/logo_v3.png" width="250px" alt=""></a>
+
+    </div>
 
     <div class="about">
         <div class="container">
 {{--            <div class="copyright">--}}
 {{--                Derechos de autor 2022 <a href="/">Tonosmp3gratis.com</a>--}}
 {{--            </div>--}}
+
             <div class="copyright">
-                <a href="{{route("dashboard")}}"><img class="img-fluid" src="/webpage/images/logo_v3.png" width="250px" alt=""></a>
                 <ul class="socials">
                     <li>
                         <a class="social-youtube"

@@ -6,6 +6,10 @@ body {
     line-height: normal;
     background: #ffffff;
 }
+.container-image{
+    display: flex;
+    justify-content: center;
+}
 
 .socials li {
     display: inline-block;
