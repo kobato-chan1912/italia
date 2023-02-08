@@ -55,7 +55,7 @@
         </div>
     </div>
     <div class="container-image">
-        <a href="{{route("dashboard")}}"><img class="img-fluid" src="/webpage/images/logo_v3.png" width="250px" alt=""></a>
+        <a href="/"><img class="img-fluid" src="/webpage/images/logo_v3.png" width="250px" alt=""></a>
 
     </div>
 
