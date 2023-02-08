@@ -20,7 +20,7 @@ class WebPageController extends Controller
     {
         $post = file_get_contents(storage_path("app/public/post_outside.txt"));
         $page = $this->page;
-        $url = $this->url;
+        $url = "/page/";
         $newestSongs = Song::orderBy("id", "desc")->where("display",1)->paginate(10);
         $bestSongs = Song::orderBy("downloads", "desc")->where("display",1)->limit(10)->get();
         $popularSongs = Song::orderBy("listeners", "desc")->where("display",1)->limit(10)->get();

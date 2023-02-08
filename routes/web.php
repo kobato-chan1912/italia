@@ -142,7 +142,9 @@ Route::get("/sitemap.xml", "SitemapController@index");
 Route::prefix("/")->group(function (){
    Route::get("/", "WebPageController@indexHome")->name("webPageIndex");
 //   Route::get("/newest", "WebPageController@newest");
-
+    Route::get("/page/{page}", function($page){
+        return redirect(env("WEBPAGE_URL"). "?page=". $page);
+    });
     Route::get("/top-suonerie", "WebPageCategoryController@losMejores")->name("lostMejores");
    Route::get("/nuove-suonerie", "WebPageCategoryController@newestSongs")->name("newest");
    Route::get("/le-migliori-suonerie", "WebPageCategoryController@popularSongs")->name("popularSongs");
