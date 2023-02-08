@@ -137,6 +137,7 @@ Route::any('/ckfinder/browser', '\CKSource\CKFinderBridge\Controller\CKFinderCon
     | Webpage Routes
     |--------------------------------------------------------------------------
 */
+Route::get("/sitemap.xml", "SitemapController@index");
 
 Route::prefix("/")->group(function (){
    Route::get("/", "WebPageController@indexHome")->name("webPageIndex");

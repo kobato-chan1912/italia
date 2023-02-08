@@ -10,7 +10,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="{{route("webPageIndex")}}" >
-                    <img src="/webpage/images/logo_v3.png" alt="">
+                    <img src="/webpage/images/logo_v3.webp" alt="logo">
                 </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse" style="background-color: {{'#'.env("BACKGROUND_COLOR")}}">

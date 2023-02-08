@@ -3,7 +3,7 @@
 
 @include("webpage.layouts.head",
 [
-    "title" => "Scaricare suonerie gratis per telefono, Top suonerie android iphone | ". env("WEB_NAME"),
+    "title" => "Scaricare suonerie gratis per telefono, Top suonerie android",
     "og_des" => "Scaricare suonerie gratis per telefono, Top suonerie android iphone. Molte suonerie di alta qualità, le ultime suonerie mp3 disponibili oggi, rendono le suonerie online",
     "og_title" => "Scaricare suonerie gratis per telefono, Top suonerie android iphone | ". env("WEB_NAME")
 ])
@@ -283,6 +283,8 @@
 </section>
 
 @include("webpage.layouts.footer")
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-63e379abd69ec2ff"></script>
 
 </body>
 
