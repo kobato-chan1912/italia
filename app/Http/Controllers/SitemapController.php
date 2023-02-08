@@ -12,7 +12,6 @@ class SitemapController extends Controller
     {
         $songs = Song::all();
         $lastTime = Song::latest()->first()->created_at;
-
         return response()->view('webpage.sitemap.index', compact('songs', 'lastTime'))
             ->header('Content-Type', 'text/xml');
 
