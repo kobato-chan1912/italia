@@ -3,9 +3,9 @@
 
 @include("webpage.layouts.head",
 [
-    "title" => "Scaricare suonerie gratis per telefono, Top suonerie android",
-    "og_des" => "Scaricare suonerie gratis per telefono, Top suonerie android iphone. Molte suonerie di alta qualità, le ultime suonerie mp3 disponibili oggi, rendono le suonerie online",
-    "og_title" => "Scaricare suonerie gratis per telefono, Top suonerie android iphone | ". env("WEB_NAME")
+    "title" => "Scaricare Suonerie Telefono ".\Carbon\Carbon::now()->year. " gratis - SuonerieMp3Gratis",
+    "og_des" => "Scaricare Suonerie gratis per Telefono, Top Suonerie Samsung e Iphone. Molte suonerie di alta qualità, le ultime suonerie mp3 disponibili oggi.",
+    "og_title" => "Scaricare Suonerie Telefono ".\Carbon\Carbon::now()->year. " gratis - SuonerieMp3Gratis
 ])
 
 <body>
@@ -258,7 +258,7 @@
                 <br>
                 <div id="container-cfq">
                     <div class="page-description summary">
-                        <h1 class="gt-title page-title">Suonerie Gratis 2023 - Scarica suonerie telefono per Android</h1>
+                        <h1 class="gt-title page-title">Suonerie Gratis</h1>
                         <div class="entry-content">
                             @php echo $post @endphp
                         </div>
