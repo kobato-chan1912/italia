@@ -5,7 +5,7 @@
 [
     "title" => "Scaricare Suonerie Telefono ".\Carbon\Carbon::now()->year. " gratis - SuonerieMp3Gratis",
     "og_des" => "Scaricare Suonerie gratis per Telefono, Top Suonerie Samsung e Iphone. Molte suonerie di alta qualità, le ultime suonerie mp3 disponibili oggi.",
-    "og_title" => "Scaricare Suonerie Telefono ".\Carbon\Carbon::now()->year. " gratis - SuonerieMp3Gratis
+    "og_title" => "Scaricare Suonerie Telefono ".\Carbon\Carbon::now()->year. " gratis - SuonerieMp3Gratis"
 ])
 
 <body>
